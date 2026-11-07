@@ -1,0 +1,64 @@
+{
+  "study": "all_modalities_v1",
+  "design": "separate unpaired thermal and RGB image cohorts",
+  "verified_source_files": 798,
+  "training_runs": 60,
+  "history_rows_per_run": 100,
+  "timing_sessions": 20,
+  "image_counts": {
+    "thermal": 182,
+    "rgb": 216
+  },
+  "human_boxes": {
+    "thermal": 1690,
+    "rgb": 2924
+  },
+  "partition_counts": [
+    {
+      "cohort": "thermal",
+      "split": "train",
+      "images": 124,
+      "human_boxes": 1132
+    },
+    {
+      "cohort": "thermal",
+      "split": "val",
+      "images": 27,
+      "human_boxes": 222
+    },
+    {
+      "cohort": "thermal",
+      "split": "test",
+      "images": 31,
+      "human_boxes": 336
+    },
+    {
+      "cohort": "rgb",
+      "split": "train",
+      "images": 152,
+      "human_boxes": 2027
+    },
+    {
+      "cohort": "rgb",
+      "split": "val",
+      "images": 32,
+      "human_boxes": 462
+    },
+    {
+      "cohort": "rgb",
+      "split": "test",
+      "images": 32,
+      "human_boxes": 435
+    }
+  ],
+  "cross_partition_recorded_leakage_groups": 0,
+  "split_scope": "exploratory image-family holdout",
+  "independent_flights_verified": false,
+  "trained_checkpoint_files_indexed": 60,
+  "trained_checkpoint_binary_bytes": 8046091290,
+  "downloaded_selected_checkpoint_hashes_verified": 1,
+  "trained_checkpoint_binaries_in_release": 0,
+  "tracking_video_and_frame_logs_available_in_package": false,
+  "reused_from_reference_12": "image/annotation and source-flight overlap not established",
+  "public_rgb_release_approval": "not present in available records"
+}

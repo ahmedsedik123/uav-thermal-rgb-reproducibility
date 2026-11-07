@@ -1,0 +1,6 @@
+EXPLORATORY IMAGE-FAMILY HOLDOUT
+Source flight/video sessions are unverified. Known augmentation families and identical pixels stay together, but temporal/scene dependencies can remain across partitions.
+These results do not establish independent-flight or unseen-site generalization.
+Separate unmatched RGB and thermal collections do not establish a fusion advantage.
+Seed standard deviations describe optimization variability, not session generalization.
+Session-bootstrap confidence intervals are disabled.

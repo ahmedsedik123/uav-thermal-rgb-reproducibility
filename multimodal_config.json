@@ -1,0 +1,50 @@
+{
+  "study_name": "all_modalities_v1",
+  "output_root": "experiments",
+  "modalities": [
+    "thermal",
+    "rgb",
+    "fusion"
+  ],
+  "evaluation_mode": "exploratory",
+  "folds": 5,
+  "split_seed": 42,
+  "device": "auto",
+  "design": "auto",
+  "fusion": {
+    "pairs_csv": "modalities/fusion/pairs_VERIFIED.csv",
+    "rgb_weight": 0.5,
+    "method": "registered_three_channel_input_blend"
+  },
+  "source_roots": {
+    "thermal": "modalities/thermal",
+    "rgb": "modalities/rgb"
+  },
+  "sessions": {
+    "thermal": "modalities/thermal/session_map_VERIFIED.csv",
+    "rgb": "modalities/rgb/session_map_VERIFIED.csv"
+  },
+  "timing": {
+    "seconds": 60,
+    "warmup": 50,
+    "precision": "fp32",
+    "platform_type": "workstation"
+  },
+  "models": [
+    "yolov5s",
+    "yolov5su",
+    "yolov8n",
+    "yolov8m",
+    "yolov8l",
+    "rtdetr_l",
+    "yolov10n",
+    "yolo11n",
+    "yolo12n",
+    "yolo26n"
+  ],
+  "seeds": [
+    17,
+    42,
+    93
+  ]
+}

@@ -1,0 +1,10 @@
+# Binary assets and local outputs are kept outside ordinary Git commits.
+modalities/
+weights/
+experiments/
+*.pt
+*.zip
+*.cache
+__pycache__/
+.ipynb_checkpoints/
+.env

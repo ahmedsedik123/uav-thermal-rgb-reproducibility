@@ -1,0 +1,7 @@
+cohort,split,images,human_boxes
+thermal,train,124,1132
+thermal,val,27,222
+thermal,test,31,336
+rgb,train,152,2027
+rgb,val,32,462
+rgb,test,32,435

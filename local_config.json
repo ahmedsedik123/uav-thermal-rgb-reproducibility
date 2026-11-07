@@ -1,0 +1,7 @@
+{
+  "project_root": ".",
+  "dataset": "thermal_v4",
+  "dataset_root": "modalities/thermal",
+  "study_root": "",
+  "device": "auto"
+}

@@ -1,0 +1,5 @@
+# Optional sequence evaluation and NVIDIA GPU sensor readings.
+motmetrics>=1.4
+lap>=0.5.12
+opencv-python>=4.8
+nvidia-ml-py>=12

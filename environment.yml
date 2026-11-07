@@ -1,0 +1,14 @@
+name: uav-all-modalities
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - ipykernel
+  - jupyterlab>=4,<5
+  - notebook
+  - setuptools
+  - wheel
+# The first notebook cell installs requirements.txt into this environment.
+# For NVIDIA/CUDA, install the matching torch/torchvision pair from the official
+# PyTorch selector before launch, or set TORCH_INDEX_URL in the first cell.

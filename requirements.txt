@@ -1,0 +1,22 @@
+# Install the matching CPU/CUDA torch/torchvision pair first; local CUDA suffixes satisfy these pins.
+torch==2.7.0
+torchvision==0.22.0
+ultralytics==8.4.183
+numpy==1.26.4
+Pillow==10.4.0
+PyYAML==6.0.2
+pycocotools==2.0.11
+matplotlib==3.9.2
+psutil>=5.9
+# Native classic YOLOv5s (bundled official source; distinct from YOLOv5su).
+opencv-python==4.10.0.84
+requests>=2.32.2
+scipy==1.13.1
+ultralytics-thop==2.2.3
+pandas==2.2.3
+seaborn==0.13.2
+packaging
+setuptools>=70,<80
+ipython>=8.18
+nbformat>=5.10
+nbclient>=0.10,<1

@@ -1,0 +1,43 @@
+{
+  "design": "independent_unpaired_cohorts",
+  "paired_modality_comparison": false,
+  "source_sessions_verified": false,
+  "statuses": [
+    {
+      "modality": "thermal",
+      "expected_runs": 30,
+      "evaluated_runs": 30,
+      "complete_declared_evaluation": true,
+      "matches_primary_100epoch_3seed_protocol": true,
+      "complete_primary_comparison": true,
+      "expected_timing_runs": 10,
+      "completed_timing_runs": 10,
+      "complete_declared_timing": true,
+      "design": "independent_unpaired_cohorts",
+      "paired_cases": false
+    },
+    {
+      "modality": "rgb",
+      "expected_runs": 30,
+      "evaluated_runs": 30,
+      "complete_declared_evaluation": true,
+      "matches_primary_100epoch_3seed_protocol": true,
+      "complete_primary_comparison": true,
+      "expected_timing_runs": 10,
+      "completed_timing_runs": 10,
+      "complete_declared_timing": true,
+      "design": "independent_unpaired_cohorts",
+      "paired_cases": false
+    },
+    {
+      "modality": "fusion",
+      "expected_runs": 0,
+      "evaluated_runs": 0,
+      "complete_primary_comparison": false,
+      "design": "independent_unpaired_cohorts",
+      "reason": "No synchronized, registered RGB/thermal pairs with common labels were supplied."
+    }
+  ],
+  "cross_modality_causal_comparison_permitted": false,
+  "note": "Same models and budgets do not remove scene/dataset confounding in unmatched cohorts. Seed SD is not confidence across independent flights."
+}
