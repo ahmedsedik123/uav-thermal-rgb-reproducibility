@@ -1,6 +1,6 @@
 # Thermal UAV tracking and counting
 
-The [tracking release v1.1.0](https://github.com/ahmedsedik123/uav-thermal-rgb-reproducibility/releases/tag/v1.1.0) archives the supplied video experiment separately from the [image benchmark v1.0.0](https://github.com/ahmedsedik123/uav-thermal-rgb-reproducibility/releases/tag/v1.0.0). Both releases require access to this private repository.
+The [tracking release v1.1.0](https://github.com/ahmedsedik123/uav-thermal-rgb-reproducibility/releases/tag/v1.1.0) archives the supplied video experiment separately from the [image benchmark v1.0.0](https://github.com/ahmedsedik123/uav-thermal-rgb-reproducibility/releases/tag/v1.0.0). Access to both releases follows the repository's visibility.
 
 | File | Contents |
 |---|---|
@@ -18,7 +18,7 @@ The [tracking release v1.1.0](https://github.com/ahmedsedik123/uav-thermal-rgb-r
 
 Thermal YOLOv8m, training seed 17, class 0 (`item` in the one-class dataset), ByteTrack (`bytetrack.yaml`), input size 640, confidence 0.25, IoU 0.50. The horizontal counting line is at half the frame height, with an 8-pixel margin and a maximum 10-frame observation gap. These settings come from the supplied script and summary. The exact software versions and resolved ByteTrack YAML of that run were not recorded.
 
-The archive has 2,611 frames at 25 FPS (104.44 s), 288 frames with assigned tracks, 330 tracked-box observations, 26 distinct track IDs and no line crossings. The mean and maximum visible track counts are 0.126 and 3. The last active frame begins at 44.04 s, and 11 IDs were observed at most twice. Track IDs are algorithm outputs; no identity ground truth was supplied to establish the number of unique people or tracking accuracy.
+The archive has 2,611 frames at 25 FPS (104.44 s), 288 frames with assigned tracks (11.0%), 330 tracked-box observations, 26 distinct track IDs and no line crossings. The mean and maximum visible track counts are 0.126 and 3. The last active frame begins at 44.04 s, and 11 of the 26 IDs (42.3%) were observed at most twice. The values reported in Table 14 of the manuscript match the archived outputs. Track IDs are algorithm outputs; no identity ground truth was supplied to establish the number of unique people or tracking accuracy.
 
 The recovered checkpoint matches the recorded archived path. The original tracking summary did not capture a checksum, so the manifest fingerprints the recovered copy. The `Thermal_YOLOv8m_seed17.pt` asset in the image release is a different file (`best_mAP50_95.pt`); use the tracking checkpoint for this runner.
 
