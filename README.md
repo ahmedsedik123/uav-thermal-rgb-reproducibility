@@ -1,6 +1,6 @@
 # UAV thermal and RGB human detection: reproducibility materials
 
-This repository documents the image benchmark and the separate video tracking experiment in *A Real-Time UAV Edge-Intelligence Framework for Human Detection in Thermal Imagery Using Advanced Deep Learning Techniques*, by Haleem Farman, Ahmed Sedik, and Moustafa M. Nasralla. This private repository accompanies the study. Obtain repository and asset access before citing it as available to readers.
+This repository documents the image benchmark and the separate video tracking experiment in *Deep Learning for UAV-Based Human Detection: A Unified Evaluation of Detection Accuracy, Computational Performance, and Temporal Tracking*, by Haleem Farman, Ahmed Sedik, and Moustafa M. Nasralla. This private repository accompanies the study. Obtain repository and asset access before citing it as available to readers.
 
 ## Reported scope
 
