@@ -1,0 +1,51 @@
+{
+  "detector": "YOLOv8m",
+  "modality": "thermal",
+  "training_seed": 17,
+  "checkpoint_asset": "Thermal_YOLOv8m_seed17_tracking_best.pt",
+  "checkpoint_recorded_path": "thermal/training/fold_00/yolov8m__seed_17/attempt_001/yolov8m__seed_17/fit/weights/best.pt",
+  "checkpoint_provenance": "Recovered archived file matching the path in the supplied code and summary. No execution-time checksum was supplied.",
+  "original_video_name": "test_video.mp4",
+  "original_video_in_release": false,
+  "historical_software_versions": null,
+  "identity_ground_truth_supplied": false,
+  "parameters": {
+    "tracker_config": "bytetrack.yaml",
+    "confidence": 0.25,
+    "iou": 0.5,
+    "image_size": 640,
+    "class_id": 0,
+    "line_fraction": 0.5,
+    "line_margin_px": 8,
+    "max_gap_frames": 10
+  },
+  "annotated_video": {
+    "frames": 2611,
+    "fps": 25,
+    "width": 640,
+    "height": 512,
+    "duration_seconds": 104.44
+  },
+  "artifacts": {
+    "Thermal_YOLOv8m_seed17_tracking_best.pt": {
+      "bytes": 52036818,
+      "sha256": "b95daa951f73238d011f2cb79cede77c6947ada8dfdab4042b118b7c166db4e4"
+    },
+    "counting_results.csv": {
+      "bytes": 57873,
+      "sha256": "c4036d8ffbd2b80c3c937d08f27a46f0ab893228b544501790d24aa563fdbad1"
+    },
+    "tracked_video.mp4": {
+      "bytes": 59458142,
+      "sha256": "9d744f3add28422b842f74aea9ce6e6fe5ccd8d17c4ed98ed9930d613a4e999a"
+    },
+    "tracking_details.csv": {
+      "bytes": 14530,
+      "sha256": "c762fa41884347c713235fa5aa772f3909c58d0ebf5166f23b14cf05ecd2239f"
+    },
+    "tracking_summary.json": {
+      "bytes": 920,
+      "sha256": "db7b2d5ec64864e8d3d38d3c9860f44b178699bf3e89c0ab1b304758fbff0649"
+    }
+  }
+}

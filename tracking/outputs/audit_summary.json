@@ -1,0 +1,16 @@
+{
+  "frames": 2611,
+  "fps": 25,
+  "duration_s": 104.44,
+  "frames_with_assigned_tracks": 288,
+  "tracked_box_observations": 330,
+  "distinct_track_ids": 26,
+  "track_ids_observed_at_most_twice": 11,
+  "mean_visible_tracks_per_frame": 0.126,
+  "maximum_visible_tracks_per_frame": 3,
+  "last_active_frame_time_s": 44.04,
+  "downward_crossings": 0,
+  "upward_crossings": 0,
+  "annotated_video_decoded_and_hashed": true,
+  "tracking_accuracy_validated": false
+}

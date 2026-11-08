@@ -16,9 +16,9 @@ The thermal source export includes a Roboflow notice dated 15 November 2023, wit
 | Initial pretrained weights | Ten files verified against recorded SHA-256 hashes | In the initial weights archive. Preserve the original model terms. |
 | Selected trained checkpoints | 60 indexed files, approximately 8.05 GB in total | Existing Drive locations are author-controlled. This package does not grant access to those files. |
 | Training, evaluation, and timing logs | 60 training histories, training and evaluation logs, 20 timing logs, and run-level metadata | Included. Original absolute machine paths are redacted in the release copies. |
-| Video and tracker outputs | Manuscript reports a separate video study | Exact video and per-frame outputs were not recovered. Add the source video, tracker configuration, checkpoint hash, and track/count logs before claiming video reproduction. |
+| Video and tracker outputs | Supplied tracking code, annotated MP4, frame and track CSVs, summary, and the corresponding archived `fit/weights/best.pt` | Private [tracking release v1.1.0](https://github.com/ahmedsedik123/uav-thermal-rgb-reproducibility/releases/tag/v1.1.0). The unannotated source clip and identity ground truth are not supplied. |
 
-The source package was recovered from the supplied project archive. It contains optional workflows beyond the reported image benchmark; the completion records specify which experiments actually ran. Full execution-time provenance of every source file is not established by the runtime logs.
+The source package was recovered from the supplied project archive. It contains optional workflows beyond the reported image benchmark; the completion records specify which experiments actually ran. Full execution-time provenance of every source file is not established by the runtime logs. For the video run, the supplied code calls `bytetrack.yaml`; the exact package versions and resolved tracker configuration were not recorded. The tracking checkpoint is the recovered file corresponding to the path in the supplied summary.
 
 ## Dataset counts
 
