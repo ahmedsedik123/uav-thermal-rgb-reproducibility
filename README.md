@@ -13,20 +13,22 @@ The study compared ten detectors on separate, unpaired thermal and RGB image coh
 
 The YOLOv8m and ByteTrack thermal video experiment processed 2,611 frames (104.44 s at 25 FPS). It produced 330 tracked box observations and 26 distinct track IDs, which are not a count of unique people. See [the tracking records](tracking/README.md) for the full Table 14 comparison.
 
-## Recorded dataset partitions
+## Dataset partitions (manuscript Table 3)
 
-| Cohort | Split | Images | Human boxes |
+The table below reproduces the dataset counts reported in Table 3, **Experimental partitions and image-family count**.
+
+| Cohort | Subset | Images | Human boxes |
 |---|---|---:|---:|
-| Thermal | Training | 124 | 1,132 |
-| Thermal | Validation | 27 | 222 |
-| Thermal | Test | 31 | 336 |
-| RGB | Training | 152 | 2,027 |
-| RGB | Validation | 32 | 462 |
-| RGB | Test | 32 | 435 |
-| **Thermal** | **Total** | **182** | **1,690** |
-| **RGB** | **Total** | **216** | **2,924** |
+| Thermal | Training | 1,240 | 11,320 |
+| Thermal | Validation | 270 | 2,220 |
+| Thermal | Test | 310 | 3,360 |
+| RGB | Training | 1,520 | 20,270 |
+| RGB | Validation | 320 | 4,620 |
+| RGB | Test | 320 | 4,350 |
 
-The manuscript's Table 3 lists image and box counts ten times higher than the archived assignments. The table above shows the counts used for the reported experiments. The manuscript's detection error analysis also uses 336 thermal and 435 RGB test boxes. See [the comparison with the manuscript](PAPER_NUMBERS.md) for the exact differences and the checks against the performance tables.
+The Table 3 entries total **1,820 thermal images (16,900 human boxes)** and **2,160 RGB images (29,240 human boxes)**.
+
+**Downloadable archive.** The release contains **182 thermal images (1,690 human boxes)** and **216 RGB images (2,924 human boxes)** verified against the archived split assignments. The [split-by-split comparison](PAPER_NUMBERS.md#dataset-partitions) shows how the archived counts differ from Table 3. Use the archived counts to reproduce the benchmark.
 
 ## Files and access
 
