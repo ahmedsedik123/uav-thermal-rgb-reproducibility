@@ -21,7 +21,7 @@ The table below reproduces the dataset counts reported in Table 3, **Experimenta
 
 The Table 3 entries total **1,820 thermal images (16,900 human boxes)** and **2,160 RGB images (29,240 human boxes)**.
 
-**Downloadable archive.** The release contains **182 thermal images (1,690 human boxes)** and **216 RGB images (2,924 human boxes)** verified against the archived split assignments. The [split-by-split comparison](PAPER_NUMBERS.md#dataset-partitions) shows how the archived counts differ from Table 3. Use the archived counts to reproduce the benchmark.
+**Downloadable archive.** As a sample of the dataset, we have provided **182 thermal images (1,690 human boxes)** and **216 RGB images (2,924 human boxes)** verified against the archived split assignments. The [split-by-split comparison](PAPER_NUMBERS.md#dataset-partitions) shows how the archived counts differ from Table 3. Use the archived counts to reproduce the benchmark.
 
 ## Files and access
 
