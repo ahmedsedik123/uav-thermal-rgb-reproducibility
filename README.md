@@ -4,14 +4,7 @@ This repository documents the image benchmark and the separate video tracking ex
 
 ## Reported scope
 
-The study compared ten detectors on separate, unpaired thermal and RGB image cohorts. For each detector and cohort, seeds 17, 42 and 93 were run for 100 epochs each (60 training runs in total). Workstation profiling used seed 17 for one session per detector and cohort (20 sessions on an NVIDIA RTX A6000). Paired fusion and generalization to independent flights were not evaluated.
-
-| Cohort | Highest mean test AP50:95 (mean ± sample SD) | Highest workstation throughput |
-|---|---|---|
-| Thermal | YOLOv8m: 0.5947 ± 0.0044 | YOLOv5su: 139.47 images/s |
-| RGB | YOLO12n: 0.4217 ± 0.0117 | YOLOv10n: 91.36 images/s |
-
-The YOLOv8m and ByteTrack thermal video experiment processed 2,611 frames (104.44 s at 25 FPS). It produced 330 tracked box observations and 26 distinct track IDs, which are not a count of unique people. See [the tracking records](tracking/README.md) for the full Table 14 comparison.
+The study compared ten detectors on separate, unpaired thermal and RGB image cohorts. For each detector and cohort, seeds 17, 42 and 93 were run for 100 epochs each (60 training runs in total). Workstation profiling used seed 17 for one session per detector and cohort (20 sessions on an NVIDIA RTX A6000).
 
 ## Dataset partitions (manuscript Table 3)
 
